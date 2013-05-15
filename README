@@ -1,0 +1,15 @@
+This is a skeleton for CS 111 Lab 1.
+
+Replace this README file with notes on your implementation.
+Mentions any special features or limitations.
+
+Lab 1a
+For the '#' character, I assume that everything after it up to but excluding 
+a newline character is a comment. This includes character sequences like '#!'.
+I assume that the order of precedence is:
+    ;           Lowest
+    &&, ||
+    |
+    <
+    >           Highest
+
